@@ -1,3 +1,8 @@
+/**
+ * Class representing a rectangle, comes with variables representing length and width
+ * @author Richard Gao
+ * @version 1.0.0
+ */
 public class Rectangle {
     //instance variables, as usual
     private double length;

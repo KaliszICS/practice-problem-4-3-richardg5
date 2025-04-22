@@ -1,3 +1,8 @@
+/**
+ * Class representing a chair, comes with variables for number of legs and material of the chair
+ * @author Richard Gao
+ * @version 1.0.0
+ */
 public class Chair {
     //instance variables once again
     private int legs;
