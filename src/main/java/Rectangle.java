@@ -9,8 +9,7 @@ public class Rectangle {
     private double width;
 
     /**
-     * Constructor taking no parameters, sets length to 4 and width to 8
-     * Wow you're lazy for using this
+     * Creates an instance of the rectangle class with length 4 and width 8
      */
     public Rectangle() {
         this.length = 4;
@@ -18,8 +17,8 @@ public class Rectangle {
     }
 
     /**
-     * Constructor taking only length, sets width to 8
-     * @param length Length of the rectangle as a double
+     * Creates an instance of the rectangle class with given length and width 8
+     * @param length a double representing the length of the rectangle
      */
     public Rectangle(double length) {
         this.length = length;
@@ -27,9 +26,9 @@ public class Rectangle {
     }
 
     /**
-     * Constructor, takes length and width
-     * @param length Length of the rectangle as a double
-     * @param width Width of the rectangle as a double
+     * Creates an instance of the rectangle class with given length and given width
+     * @param length a double representing the length of the rectangle
+     * @param width a double representing the width of the rectangle
      */
     public Rectangle(double length, double width) {
         this.length = length;
@@ -37,16 +36,16 @@ public class Rectangle {
     }
 
     /**
-     * Getter for rectangle length
-     * @return Length of the rectangle as a double
+     * Gets the length of the rectangle
+     * @return a double representing the length of the rectangle
      */
     public double getLength() {
         return this.length;
     }
 
     /**
-     * Getter for rectangle width
-     * @return Width of the rectangle as a double
+     * Gets the width of the rectangle
+     * @return a double representing the width of the rectangle
      */
     public double getWidth() {
         return this.width;

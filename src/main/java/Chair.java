@@ -9,8 +9,7 @@ public class Chair {
     private String material;
 
     /**
-     * Constructor taking no parameters, sets legs to 4 and material to wood
-     * For the lazy
+     * Creates an instance of the chair class with 4 legs and wood material
      */
     public Chair() {
         this.legs = 4;
@@ -18,8 +17,8 @@ public class Chair {
     }
 
     /**
-     * Constructor taking legs of the chair only, sets material to wood
-     * @param legs Number of legs for the chair as an int
+     * Creates an instance of the chair class with given number of legs and wood material
+     * @param legs an int representing the number of legs
      */
     public Chair(int legs) {
         this.legs = legs;
@@ -27,9 +26,9 @@ public class Chair {
     }
 
     /**
-     * Constructor taking legs of the chair and material of the chair
-     * @param legs Number of legs for the chair as an int
-     * @param material Material of the chair as a string
+     * Creates an instance of the chair class with given number of legs and given material
+     * @param legs an int representing the number of legs
+     * @param material a String representing the material
      */
     public Chair(int legs, String material) {
         this.legs = legs;
@@ -37,16 +36,16 @@ public class Chair {
     }
 
     /**
-     * Getter for number of legs on the chair
-     * @return Number of legs on the chair as an int
+     * Gets the number of legs on the chair
+     * @return an int representing the number of legs
      */
     public int getLegs() {
         return this.legs;
     }
 
     /**
-     * Getter for material of the chair
-     * @return Material of the chair as a string
+     * Gets the material of the chair
+     * @return a String representign the material
      */
     public String getMaterial() {
         return this.material;
